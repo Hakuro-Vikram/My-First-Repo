@@ -1,21 +1,26 @@
-vikram@DESKTOP-J5RKF9V:~/My-First-Repo$ git clone https://github.com/Hakuro-Vikram/My-First-Repo.git
-Cloning into 'My-First-Repo'...
-remote: Enumerating objects: 11, done.
-remote: Counting objects: 100% (11/11), done.
-remote: Compressing objects: 100% (8/8), done.
-remote: Total 11 (delta 1), reused 7 (delta 1), pack-reused 0 (from 0)
-Receiving objects: 100% (11/11), done.
-Resolving deltas: 100% (1/1), done.
-vikram@DESKTOP-J5RKF9V:~/My-First-Repo$ ls
-My-First-Repo  README.md  Test.txt  Trial.txt  test.txt
-vikram@DESKTOP-J5RKF9V:~/My-First-Repo$ cd My-First-Repo/
-vikram@DESKTOP-J5RKF9V:~/My-First-Repo/My-First-Repo$ touch hello.txt
-vikram@DESKTOP-J5RKF9V:~/My-First-Repo/My-First-Repo$ cat > hello.txt
-for add git in linux
-1. make a target file or directory there you wanna perform your task
-2. use command git clone https://github.com/Hakuro-Vikram/My-First-Repo.git for make a connection to online repo
-3. ls
-4. update your query
-5.^C
-vikram@DESKTOP-J5RKF9V:~/My-First-Repo/My-First-Repo$ ls
-README.md  Test.txt  Trial.txt  hello.txt  test.txt
+ 26  git clone https://github.com/Hakuro-Vikram/My-First-Repo.git
+   27  ls
+   28  cd My-First-Repo/
+   29  touch hello.txt
+   30  cat > hello.txt
+   31  ls
+   32  cat Trial.txt
+   33  cat hello.txt
+   34  gedit Trial.txt
+   35  sudo snap install gedit
+   36  gedit Trial.txt
+   37  sudo snap install gedit
+   38  clear
+   39  ls
+   40  gedit hello.txt
+   41  cat hello.txt
+   42  git status
+   43  git add hello.txt
+   44  git status
+   45  git commit -m "for instruction"
+   46  git status
+   47  git push origin main
+   49  git remote set-url origin https://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@github.com/Hakuro-Vikram/My-First-Repo
+   50  ls
+   51  git status
+   52  git push origin main
